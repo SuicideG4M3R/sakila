@@ -36,4 +36,8 @@ WHERE first_name = 'KENNETH';
 SELECT *
 FROM actor_sample;
 
+DROP TABLE actor_sample;
 
+UPDATE actor_sample
+SET first_name = 'Janusz', last_name = 'Kowalski'
+WHERE actor_id = 2;
